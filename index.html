@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title>김서이의 홈페이지</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: hotpink;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: mediumpurple;
+    }
+
+    a:visited {
+        color: pink;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#int">interests</a> <br>
+                <a href="#edu">education</a> <br>
+                <a href="#favorite">works</a> <br>
+                <a href="#con">contact</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> welcome to my world of work & life </h2>
+
+        <!-- 관심사 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h1 class="jumbo"><b>Seoyi's homepage </b></h1>
+            <h1 class="xxxlarge colorname" id="interests"><b>interests</b></h1>
+            <hr style="width:40%; border:5px solid palevioletred; float: left; clear: both; "> <br>
+        </div>
+
+        <!-- 사진 -->
+        <div class="imgpadding" id="int">
+            <div class="half">
+                <img src="first.jpg" style="width:100%" alt="미드나잇 액터뮤지션">
+                <img src="second.png" style="width:100%" alt="렌트">
+                <img src="third.jpg" style="width:100%" alt="드라큘라">
+            </div>
+
+            <div class="half">
+                <img src="fourth.jpg" style="width:100%" alt="어쩌면 해피앤딩">
+                <img src="fifth.jpg" style="width:100%" alt="모차르트">
+                <img src="sixth.jpg" style="width:100%" alt="리지">
+            </div>
+        </div>
+
+        <!-- 공부 -->
+        <div class="bigbox" id="edu" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>education</b></h1>
+            <hr style="width:40%; border:5px solid palevioletred; float: left; clear: both; "> <br>
+            <p>저는 성신여자대학교 융합보안공학과에 재학중입니다.</p>
+            <p>정보보안전문가가 되기 위해 열심히 공부하고 있습니다. 대학교에 입학하자마자 비대면 강의를 듣고 있어 많이 속상합니다.
+                부지런히 생활하는 것도 어려운 것 같습니다. 빨리 코로나가 진정되어 학교에 나가 공부하고 싶습니다. 학교에 가면 하고 싶은 것이 아주 많습니다.
+            </p>
+        </div>
+
+        <!-- 포트폴리오 -->
+        <div class="bigbox" id="favorite" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>favorite</b></h1>
+            <hr style="width:40%; border:5px solid palevioletred; float: left; clear: both; "> <br>
+            <p>저는 뮤지컬을 매우 좋아합니다.</p>
+            <p>어릴적부터 뮤지컬을 매우 좋아했는데, 3월부터 학교 주변에서 자취를 시작한 이후로 뮤지컬을 더 자주 볼 수 있게 되었습니다.
+                현재는 뮤지컬을 주 2-3회 정도 보고 있습니다. 이번주에는 '드라큘라'와 '미드나잇 액터뮤지션'을 보았습니다. 
+                '드라큘라'의 넘버 중 'Life After Life'와 'Loving You Keep Me Alive'를 매우 좋아합니다.
+            </p>
+            <p><b>많은 뮤지컬 극장들이 학교에서 멀지않은 곳에 있다는 점이 너무 기쁩니다.</b></p>
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>contact</b></h1>
+            <hr style="width:40%; border:5px solid palevioletred; float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-5219-****</li>
+                <li><a href="mailto:20200905@sungshin.ac.kr">20200905@sungshin.ac.kr</a></li> <br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="https://www.instagram.com/seo._.2.musical/"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 김서이 </p>
+
+                </footer>
+
+
+
+
+</body>
+
+</html>
